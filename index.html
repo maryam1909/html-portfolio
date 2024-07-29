@@ -1,23 +1,82 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Maryam's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        h1, h2, h3 {
+            color: #0056b3;
+        }
+        h3 {
+            margin-top: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #ddd;
+            margin: 20px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Maryam's Portfolio</h1>
-    <h2>I'm a Web Developer</h2>
-<hr/>
-    <h3><a href="./public/movie-ranking.html">Movie Ranking Project</a><h3></h3>
-    <img src="./assets/images/movieranking.png "height="200"alt="a picture of my movie ranking project"/>
-    <h3><a href="./public/birthday-invite.html">Birthday Invite Project </a> </h3>
-    <img src="./assets/images/birthdayInvite.png" height="200" alt="a picture of my brithday invite project">
-<hr/>
-<a href="./public/about.html"> About me </a>
-<a href="./public/contact.html"> Contact me </a>
-
+    <header>
+        <h1>Maryam's Portfolio</h1>
+    </header>
+    <div class="container">
+        <h3>Motivated third-year BTech Computer Science student seeking to apply my coding skills, contribute to impactful projects, and gain hands-on experience in the tech industry.</h3>
+        <hr/>
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Java, C, Python</li>
+            <li>Web Technologies: HTML, CSS, JavaScript</li>
+            <li>Database Technologies: MySQL, PL/SQL</li>
+        </ul>
+        <h2>Projects</h2>
+        <h3><a href="https://github.com/maryam1909/sales.prediction">Sales Prediction using ML</a></h3>
+        <p>Developed a sales prediction system leveraging machine learning techniques and deployed it. The system utilized historical sales data to forecast future sales trends, enabling proactive decision-making and resource allocation. Technologies used are machine learning libraries like scikit-learn, XGBoost, Python, Streamlit.</p>
+       
+        <h3><a href="https://github.com/beriamegha8/Sprout">E-Learning System</a></h3>
+        <p>E-Learning System is a desktop-based Windows application developed in Java with Swing and AWT. This project aims at serving Students and Teachers in Online based learning. Admins can add subjects, Teachers can add courses in a particular subject, and Students can enroll in courses and study them. Students can also message other participants in a particular course except the Teacher teaching that course. Technologies used are Java, MySQL, PL/SQL, Java Swing.</p>
+       
+        <hr/>
+        <a href="./public/contact.html">Contact me</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Maryam's Portfolio</p>
+    </footer>
 </body>
 </html>
-
-
